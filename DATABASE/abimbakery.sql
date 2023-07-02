@@ -223,6 +223,7 @@ CREATE TABLE `pesanan` (
   `tanggal_digunakan` datetime NOT NULL,
   `user_id` int(5) NOT NULL,
   `nama` varchar(100) NOT NULL,
+  `penerima` varchar(64) NOT NULL,
   `alamat` text NOT NULL,
   `kota` varchar(255) NOT NULL,
   `ongkir` int(11) NOT NULL,
